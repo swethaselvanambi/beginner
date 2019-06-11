@@ -1,4 +1,5 @@
 a=input()
+a=input()
 a=[int(i) for i in a]
 #print(a)
 b=list()
