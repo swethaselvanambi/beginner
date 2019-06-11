@@ -1,4 +1,4 @@
-a=input()
+a=int(input())
 a=input().split()
 a=[int(d) for d in a]
 for i in range(len(a)):
