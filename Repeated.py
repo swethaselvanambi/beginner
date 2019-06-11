@@ -1,10 +1,6 @@
 n=int(input())
-a=list()
-for i in range(0,n):
-    b=input()
-    a.append(b)
-#a=input()
-#a=[int(i) for i in a]
+a=input().split()
+a=[int(i) for i in a]
 #print(a)
 b=list()
 for i in a:
