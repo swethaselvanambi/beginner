@@ -8,5 +8,8 @@ for i in a:
         b.append(int(i))
 b = list(dict.fromkeys(b))
 b.sort()
-for i in b:
-    print(i,end=" ")
+if(b==NULL):
+    print("unique")
+else:
+    for i in b:
+        print(i,end=" ")
