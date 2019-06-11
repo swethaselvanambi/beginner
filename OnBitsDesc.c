@@ -1,8 +1,8 @@
 #include<stdio.h>
-int ones(int n)
+int ones(unsigned int n)
 {
 	int c=0;
-	unsigned long int m=1,a=1;
+	unsigned int m=1,a=1;
 	while(m<n)
 	{
 		if(m&n)
