@@ -8,8 +8,8 @@ for i in range(n):
 		s+=j
 	if(i+s==n):
 		b.append(i)
-		c++
+		c+=1
 print(c)
 if(len(b)):
 	for i in b:
-		print(b)
+		print(i)
