@@ -12,7 +12,7 @@ while(f==0):
 	while(l[j]==0):
 		c+=1
 		j-=1
-	if(c==k):
+	if(c>=k):
 		print(prod)
 		f=1
 	p+=1
